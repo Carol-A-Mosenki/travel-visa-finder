@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Visa Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating Background Shapes -->
+  <div class="background-shapes">
+    <div class="shape circle"></div>
+    <div class="shape triangle"></div>
+    <div class="shape circle"></div>
+    <div class="shape triangle"></div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1 class="hero-title">
+      <span class="word">Travel</span>
+      <span class="word">Visa</span>
+      <span class="word">Finder</span>
+    </h1>
+    <p class="hero-subtitle">
+      <span class="word">Check</span>
+      <span class="word">visa</span>
+      <span class="word">requirements</span>
+      <span class="word">instantly!</span>
+    </p>
+  </header>
+
+  <!-- Search Panel -->
+  <main>
+    <div class="search-panel">
+      <label for="passport">Your Passport Country:</label>
+      <input type="text" id="passport" placeholder="Type your country">
+
+      <label for="destination">Destination Country:</label>
+      <input type="text" id="destination" placeholder="Type destination">
+
+      <button id="search-btn">Search Visa Info</button>
+    </div>
+
+    <!-- Results -->
+    <div class="results" id="results"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
